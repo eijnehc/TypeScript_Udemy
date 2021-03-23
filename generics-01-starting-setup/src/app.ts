@@ -88,6 +88,7 @@ function createCourseGoal(
   description: string,
   date: Date
 ): CourseGoal {
+  // turn properties to optional
   let courseGoal: Partial<CourseGoal> = {};
   courseGoal.title = title;
   courseGoal.description = description;
